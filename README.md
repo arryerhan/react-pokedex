@@ -1,71 +1,25 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Pokedex Game
+## Overview
+The Pokedex Game is a fun and interactive web app built using React. In this game, players can see how 8 randomly selected Pokémon stack up against each other based on their experience points (XP). The goal is to form two teams of 4 Pokémon each, compare their XP totals, and see which team wins! Every time the page is refreshed, the teams are reshuffled, giving players a fresh experience each time.
 
-## Available Scripts
+## Features
+Props in React: The game demonstrates how to pass data using props in React, allowing different components to communicate and share information.
+API Integration: Pokémon data is dynamically fetched from an external API, making the game experience data-driven and interactive.
+Random Team Assignment: Every page refresh generates two new teams of 4 Pokémon, randomly selecting Pokémon from a pool and comparing their XP to determine the winner.
 
-In the project directory, you can run:
+## How It Works
+Random Pokémon Selection: The app fetches a list of Pokémon and their experience points from an external API.
+Team Formation: 8 Pokémon are randomly chosen, and they are split into two teams of 4.
+Experience Points Comparison: The XP totals of each team are calculated, and the team with the higher XP wins.
+Refreshing for New Teams: When the page is refreshed, the teams are reshuffled and the comparison starts again.
 
-### `npm start`
+## Technologies Used
+React: For building the user interface.
+JavaScript (ES6+): For managing state and logic.
+External API: For fetching dynamic Pokémon data.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Screenshots
+Here is the screenshot of the app to give you a better idea of the UI/UX:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# react-pokedex
+![screen](https://github.com/user-attachments/assets/0ef3c0ca-2058-403f-b1dc-bc21da7d5dc3)
